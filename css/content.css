@@ -1,25 +1,13 @@
 body{
-    background: rgb(255, 255, 255);
-}
-
-h1{
-    color: #121213;
-}
-h2{
-    color: #342d80;
+    background: lavender;
 }
 h3{
-    color: #121213;
+    color: #373737ee;
+    font-size: 22px;
+    margin-top: 20px;
+    line-height: 28px;
 }
-.mytext{
-    color: #1f2126;
-}
-p{
-    color: #1f2126;
-}
-.myblock{
-    background: #342d8025;
-}
+
 a{
     text-decoration: none;
     color: #39309e;
@@ -27,12 +15,42 @@ a{
 a:hover{
     color: #6234ef;
 }
-nav{
-    background: #eee;
-    border: 1px solid #342d80;
-}
 .pic1{
     width: 25%;
     margin: 2%;
     border-radius: 10px;
+}
+
+/* */
+article{
+    width: 800px; 
+    margin: 150px auto;
+    margin-right: 70px;
+}
+h1{
+    color: #121213;
+    font-size: 34px;
+    margin-top: 66px;
+    line-height: 40px;
+}
+p{
+    margin-top: 8px;
+    color: #2d2d2d;
+    font-size: 18px;
+    line-height: 24px;
+}
+h2{
+    color: #2a2a2aee;
+    font-size: 28px;
+    margin-top: 50px;
+    line-height: 34px;
+}
+.myblock{
+    font-style: italic;
+    margin-left: 100px;
+    margin-top: 20px;
+    margin-bottom: 30px; 
+    font-size: 18px;
+    line-height: 25px;
+    background: rgb(206, 206, 246);
 }
