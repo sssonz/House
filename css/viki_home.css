@@ -1,0 +1,74 @@
+.vi_body{
+    background: rgb(230, 250, 233, 0.763);
+}
+.vi_h3{
+    color: #373737ee;
+    font-size: 22px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    line-height: 28px;
+    font-family: Dis;
+}
+
+.vi_a{
+    text-decoration: none;
+    color: #309e42;
+    font-family: Dis;
+}
+.vi_a:hover{
+    color: #34ef41;
+}
+
+/* */
+article{
+    width: 800px; 
+    margin: 50px auto;
+    margin-right: 70px;
+}
+.vi_h1{
+    color: #10761e;
+    font-size: 34px;
+    /* margin-top: 66px; */
+    line-height: 40px;
+    font-family: Dis;
+    font-weight: bold;
+}
+.vi_p{
+    margin-top: 8px;
+    color: #193521;
+    font-size: 18px;
+    line-height: 24px;
+    font-family: Dis;
+}
+.vi_h2{
+    color: #213e25ee;
+    font-size: 28px;
+    margin-top: 50px;
+    line-height: 34px;
+    font-family: Dis;
+}
+.vi_li{
+    font-size: 18;
+    line-height: 24px;
+    margin-top: 8px;
+    color: #193521;
+    font-family: Dis;
+}
+.vi_sidebar{
+    background: rgb(215, 243, 219);
+    border: 1px solid rgb(84, 150, 92);
+    width: 330px;
+    position: fixed;
+    margin-top: 50px;
+    margin-left: 30px;
+    padding: 15px;
+    box-sizing: border-box;
+    opacity: .2;
+    transition: all 0.5s ease;
+    height: 40vh;
+    overflow-y: scroll;
+}
+.vi_sidebar:hover{
+    opacity: 1;
+    transition: all 0.1s ease;
+}

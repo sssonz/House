@@ -1,5 +1,5 @@
 body{
-    background: lavender;
+    background: rgba(230, 230, 250, 0.763);
 }
 h3{
     color: #373737ee;
@@ -19,9 +19,8 @@ a:hover{
     color: #6234ef;
 }
 .pic1{
-    width: 25%;
-    margin: 2%;
-    border-radius: 10px;
+    width: 50%;
+    margin-top: 2%;
 }
 
 /* */
@@ -59,4 +58,11 @@ h2{
     font-size: 18px;
     line-height: 25px;
     background: rgb(206, 206, 246);
+}
+li{
+    font-size: 18;
+    line-height: 24px;
+    margin-top: 8px;
+    color: #2d2d2d;
+    font-family: Kazimir-Regular;
 }
