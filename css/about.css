@@ -1,0 +1,82 @@
+.main{
+    width: 100%;
+    overflow-x: hidden;
+}
+.block1, .block2, .block3{
+    width: 1440px;
+    margin: 2% auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+.block1_text, .block1_img, .block2_text, .block2_img, .block3_text, .block3_img{
+    width: 45%;
+    padding: 0% 5%;
+}
+.block1_text p{
+    margin-top: 5%;
+}
+
+footer{
+    width: 100%;
+}
+
+.footer_text{
+    width: 600px;
+    text-align: center;
+    margin: 0% auto;
+}
+
+.footer_text p{
+    margin: 2% 0%;
+}
+
+.buttons{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+
+.button1{
+background-color: #FFFFFF;
+border-radius: 5px;
+color: black;
+padding: 5px ;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin: 4px 2px;
+transition:  all  0.2s ease-in-out;
+cursor: pointer;
+}
+
+.button1:hover{
+    transition:  all  0.2s ease-in-out;
+    background: #000000;
+    color: #FFFFFF;
+
+}
+
+.button2 {
+    background: #000000;
+    color: white;
+    padding: 5px ;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition:  all  0.2s ease-in-out;
+}
+
+
+.button2:hover{
+    transition:  all  0.2s ease-in-out;
+    background: #ffffff;
+    color: #000000;
+}
